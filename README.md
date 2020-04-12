@@ -1,5 +1,20 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+<h1> Color Factory App </h1>
+
+https://pensive-liskov-9d08ea.netlify.com/colors
+
+<h3> How This App Works </h3>
+
+As a user, I can go to /colors to see a list of all available colors.
+As a user, I can click on one of the colors in my colors list and get taken to a page where I can see that color in all its glory. (The route here should be /colors/:color.)
+As a user, I can click on a button to show a form that will let me add a new color. (The route here should be /colors/new)
+As a user, when I submit my new color form, I am redirected to the colors index, and my new color appears at the top.
+As a user, if I try to navigate to a color page that does not exist (e.g. /colors/burrito), I am redirected to the colors index page.
+As a user, if I try to navigate to an invalid url (e.g. /this-is-not-valid), I am redirected to the colors index page.
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
